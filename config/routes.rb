@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get 'courses/new', to: 'courses#new'
   get 'about', to: 'pages#about'
 
+  resources :students
 end
